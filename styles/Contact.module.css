@@ -48,3 +48,12 @@
   font-size: 16px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+  .form {
+    width: 100%;
+  }
+  .inputS:first-child {
+    margin: 0;
+  }
+}
