@@ -5,7 +5,7 @@ import Testimonials from "../components/Testimonials";
 import { data } from "../data";
 import styles from "../styles/Home.module.css";
 
-export default function Home({services}) {
+export default function Home({ services }) {
   return (
     <div>
       <Head>
@@ -14,7 +14,7 @@ export default function Home({services}) {
       </Head>
       <Intro />
       <Services services={services} />
-      <Testimonials/>
+      <Testimonials />
     </div>
   );
 }

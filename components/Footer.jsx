@@ -15,20 +15,20 @@ const Footer = () => {
         </Link>
       </div>
       <div className={styles.cardS}>
-          <div className={styles.cardItem}>
-              JLN. SUKOHARJO, CONDONG CATUR <br/> DIY, INDONESIA
-          </div>
-          <div className={styles.cardItem}>
-              AHMAD.RPL001@GMAIL.COM <br/> 123 321 445 1
-          </div>
+        <div className={styles.cardItem}>
+          JLN. SUKOHARJO, CONDONG CATUR <br /> DIY, INDONESIA
+        </div>
+        <div className={styles.cardItem}>
+          AHMAD.RPL001@GMAIL.COM <br /> 123 321 445 1
+        </div>
       </div>
       <div className={styles.card}>
-      <div className={styles.cardItem}>
-             FOLLOW US : <br/> __FB __IN __BE __TW
-          </div>
-          <div className={styles.cardItem}>
+        <div className={styles.cardItem}>
+          FOLLOW US : <br /> __FB __IN __BE __TW
+        </div>
+        <div className={styles.cardItem}>
           © 2022 AHMAD NIZAR <br /> ALL RIGHT RESERVED
-          </div>
+        </div>
       </div>
     </div>
   );
